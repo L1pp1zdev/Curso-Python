@@ -1,14 +1,14 @@
 [project]
 name = "curso-python"
 version = "0.1.0"
-description = "Add your description here"
+description = "OPENAI - Curso Interativo"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = []
 
 [tool.ruff]
 line-length = 88
-target-version = "py314"
+target-version = "py312"
 fix = true
 show-fixes = true
 indent-width = 4
@@ -60,7 +60,7 @@ indent-style = "space"
 line-ending = "lf"
 
 [tool.ruff.lint.isort]
-known-first-party = ["my_package"]
+known-first-party = ["curso"]
 
 [dependency-groups]
 dev = ["ruff>=0.15.4"]
