@@ -1,4 +1,4 @@
-numbers = list(range(1,21)) #numbers = [i for i in range(1, 21)]
+numbers = list(range(1, 21))  # numbers = [i for i in range(1, 21)]
 print(numbers)
 
 squares = [i**2 for i in range(1, 11)]
